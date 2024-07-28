@@ -1,0 +1,145 @@
+
+
+.circle1{
+  width: 600px;
+  height: 600px;
+  bottom: -303px;
+  left: -177px;
+  padding: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -100;
+  overflow: hidden;
+}
+.circle2 {
+  width: 1340px;
+  height: 1200px;
+  top: -563px;
+  right: -667px;
+  border: 5px solid black;
+  border-radius: 50%;
+  box-shadow: 3px 3px 5px 3px rgba(0, 0, 0, 0.236);
+  position: absolute;
+  z-index: -1;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.login{
+  background-color: #F5F5F5;
+  width: 625px;
+  height: 410px;
+  border-radius: 10px;
+  border: 1px solid #3A6FE5;
+  box-shadow: 8px 10px 10px 7px rgba(128, 128, 128, 0.386);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.formAndImg{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.formAndImg form h4{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+
+}
+.formAndImg  img{
+  width: 320px;
+  height: 306px;
+
+
+}
+
+.login input{
+  width: 286.23px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1.5px solid #264A99;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.login form input::placeholder{
+  font-family: Luxurious Roman;
+  font-size: 18px;
+  text-align: left;
+
+}
+.login form label{
+  font-size: 18px;
+  line-height: 21.6px;
+  width: 111.37px;
+  display: block;
+}
+.login form button{
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  margin-left: 80px;
+  margin-bottom: 20px;
+
+}
+.login form button input{
+  width: 100%;
+  height: 100%;
+  background:url('./../../assets/dashboard/button.svg');
+  background-position: center;
+  background-size:auto;
+  font-family: Luxurious Roman;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffff;
+  cursor: pointer;
+
+}
+
+
+.register{
+  color: blue;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  height: 59px;
+  background:#D9D9D9 ;
+  line-height: 59px;
+  /* position: absolute;
+  bottom: 0; */
+  margin-top: auto;
+
+}
+
+@media screen and (max-width:720px) {
+  nav ul{
+    display: none;
+  }
+  .login{
+    height: auto;
+  }
+  header{
+    width: 90%;
+    margin: auto;
+  }
+  .circle1,.circle2{
+    display: none;
+  }
+}

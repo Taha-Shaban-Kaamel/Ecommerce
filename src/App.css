@@ -1,0 +1,92 @@
+
+.App{
+  width: 100%;
+  height: 100%;
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: #ffff;
+}
+body{
+  width: 100%;
+  height: 100vh;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background: #213A58;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: 0 15px 5px 3px rgb(38, 67, 102);
+}
+nav .logoContainer{
+  width: 183px;
+  height: 65.17px;
+
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  width: 183px;
+  height: 60.17px;
+}
+.brandName{
+  width: 120px;
+  height: 40px;
+}
+nav ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: white;
+}
+nav ul li{
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: '';
+}
+nav ul li::after{
+  content: "";
+  width: 0;
+  height: 5px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  border-bottom: 2px solid #46DFB1;
+  transition: width .2s;
+}
+nav ul li:first-child::after{
+  width: 100%;
+}
+nav ul li:hover::after{
+  width: 100%;
+}
+nav button {
+  width: 88.6px;
+  height: 30px;
+  background: #80EEC6;
+  cursor: pointer;
+  border-radius: 10px;
+}
+nav button a{
+  color: black;
+}
+
+
+@media screen and (max-width:720px) {
+  nav ul{
+    display: none;
+  }
+}

@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Luxurious Roman';
+  src: url('./assets/fonts/buEupou_ZcP1w0yTKxJJokVSmbpaag0lSo8.woff2');
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Luxurious Roman", serif;
+}
+
+body {
+  font-family: "Luxurious Roman", serif;
+  width: 100%;
+  height: 100vh;
+  font-weight: 400;
+}
+#root{
+  width: 100%;
+  height: 100%;
+}

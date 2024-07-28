@@ -1,0 +1,110 @@
+.registerLogin{
+  background-color: #F5F5F5;
+  width: 920px;
+  height: 442px;
+
+  border-radius: 10px;
+  border: 1px solid #3A6FE5;
+  box-shadow: 8px 10px 10px 7px rgba(128, 128, 128, 0.386);
+}
+
+.registerFormAndImg{
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.registerFormAndImg form{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap:wrap ;
+  margin-right: 15px;
+}
+.registerFormAndImg form h4{
+  padding-top: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+
+}
+.registerFormAndImg  img{
+  width: 320px;
+  height: 306px;
+
+
+}
+
+
+.registerFormAndImg form .inpContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+
+}
+.registerFormAndImg form input{
+  width: 286.23px;
+  height: 35px;
+  border-radius: 10px;
+  border: 1.5px solid #264A99;
+  padding: 10px;
+}
+.registerFormAndImg form input::placeholder{
+  font-family: Luxurious Roman;
+  font-size: 18px;
+  text-align: left;
+  color: #b2b2b26f;
+  padding-left: 10px;
+}
+.registerFormAndImg form label{
+  font-size: 18px;
+  line-height: 21.6px;
+  width: 111.37px;
+  display: block;
+}
+.registerFormAndImg form button{
+  background-color: #8CB0FF;
+  width: 110px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid #264A99;
+
+}
+.registerFormAndImg form button input{
+  width: 100%;
+  height: 100%;
+  background:url('./../../assets/dashboard/button.svg');
+  background-position: center;
+  background-size:auto;
+  font-family: Luxurious Roman;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffff;
+  cursor: pointer;
+  padding: 0;
+}
+@media screen and (max-width:720px) {
+  .registerFormAndImg form .inpContainer {
+    flex-direction: column;
+  }
+  nav ul{
+    display: none;
+  }
+  .registerLogin{
+    height: auto;
+  }
+  header{
+    width: 90%;
+    margin: 20px auto;
+    overflow: auto;
+  }
+  .circle1,.circle2{
+    display: none;
+  }
+}
